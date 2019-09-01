@@ -24,9 +24,10 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/aquarios/config/common_full_phone.mk)
+$(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
+BOOTLEGGERS_BUILD_TYPE := Private
 
-PRODUCT_NAME := aquarios_lavender
+PRODUCT_NAME := bootleg_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
@@ -37,7 +38,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="lavender" \
     PRODUCT_NAME="lavender" \
-    PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.6.0.PFGMIXM release-keys"
+    PRIVATE_BUILD_DESC="lavender-user 9 PKQ1.180904.001 V10.3.6.0.PFGMIXM release-keys" \
+    DEVICE_MAINTAINERS="Clytheee | Pika"
 
 BUILD_FINGERPRINT := "xiaomi/lavender/lavender:9/PKQ1.180904.001/V10.3.6.0.PFGMIXM:user/release-keys"
 

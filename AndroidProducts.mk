@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aquarios_lavender.mk
+    $(LOCAL_DIR)/bootleg_lavender.mk
