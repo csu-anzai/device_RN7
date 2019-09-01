@@ -297,3 +297,6 @@ ro.sf.lcd_density=440
 
 # proximity
 gsm.proximity.enable=true
+
+# syberia version
+ro.syberia.version=2.8
