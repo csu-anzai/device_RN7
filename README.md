@@ -1,3 +1,5 @@
+## Device Tree Configs
+
 Copyright (C) 2018-2019 Syberian Hunt
 
 The Redmi Note 7 (codenamed _"lavender"_) are high-end mid-range smartphones from Xiaomi.
