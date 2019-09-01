@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "vendor_xiaomi_lavender",
+    "target_path": "device/xiaomi/lavender"
+  },
+  {
+    "repository": "nunocodex/kernel_xiaomi_lavender",
+    "target_path": "kernel/xiaomi/lavender"
+  }
+]
