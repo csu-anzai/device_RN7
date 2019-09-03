@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/serein_lavender.mk
+    $(LOCAL_DIR)/reloaded_lavender.mk

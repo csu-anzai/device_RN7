@@ -24,10 +24,10 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/syberia/common.mk)
-SEREIN_BUILDTYPE := Private
+$(call inherit-product, vendor/reloaded/common.mk)
+RELOADED_BUILDTYPE := Private
 
-PRODUCT_NAME := syberia_lavender
+PRODUCT_NAME := reloaded_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi

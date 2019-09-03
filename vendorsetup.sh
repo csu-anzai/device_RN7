@@ -1,4 +1,4 @@
 for var in eng user userdebug; do
-  add_lunch_combo serein_lavender-$var
+  add_lunch_combo reloaded_lavender-$var
 done
 export SKIP_ABI_CHECKS=true
