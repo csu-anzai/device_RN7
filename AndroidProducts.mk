@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bootleg_lavender.mk
+    $(LOCAL_DIR)/aosdp_lavender.mk
