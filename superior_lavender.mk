@@ -24,9 +24,10 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 
 # Inherit some common stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-$(call inherit-product, vendor/aosdp/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
+SUPERIOR_BUILD_TYPE := PRIVATE
 
-PRODUCT_NAME := aosdp_lavender
+PRODUCT_NAME := superior_lavender
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := lavender
 PRODUCT_MANUFACTURER := Xiaomi
