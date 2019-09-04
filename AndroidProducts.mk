@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_lavender.mk
+    $(LOCAL_DIR)/lineage_lavender.mk
